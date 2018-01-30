@@ -1,0 +1,10 @@
+com\flipkartwebautomation\bean\ProductInfoBean.class
+com\flipkartwebautomation\pages\SearchresultTestPage.class
+com\flipkartwebautomation\pages\AddToCartPage.class
+com\flipkartwebautomation\pages\FlipkarthomeTestPage.class
+com\flipkartwebautomation\StepsBackLog.class
+com\flipkartwebautomation\pages\SelectproductTestPage.class
+com\flipkartwebautomation\utils\CommonUtils.class
+com\flipkartwebautomation\components\ProductComponent.class
+com\flipkartwebautomation\pages\ProductdetailsTestPage.class
+com\flipkartwebautomation\steps\FlipkartProductSteps.class

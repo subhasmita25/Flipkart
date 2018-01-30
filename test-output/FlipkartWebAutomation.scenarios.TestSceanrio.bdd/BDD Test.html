@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 28 15:49:08 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28058 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.FlipKartOrderVerification()'><b>FlipKartOrderVerification</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (FlipKartOrderVerification)<br>Test method: end to end<br/>
+<a href="#Output-1650113431" onClick='toggleBox("Output-1650113431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1650113431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1650113431">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens flipkart application</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart home page verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_16iv4c7vs0zbi50906.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user closes the pop up box</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 'Apple' from 'Electronics' catagory</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user navigates to searchproduct</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'iPad' from searchproduct list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifySelectProduct Page verification
+Expected: a string containing "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com"
+     Actual: was "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_lawqwsp2w4i050907.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to searchproduct page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_8i1vvu31i5850908.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1sjfcn7fdyg5750909.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n0umh6tp6jls50910.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects addtoCart button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1h5z33ondasw950911.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_74uzmifxr5j550912.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n4d6jvcr4s3750913.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

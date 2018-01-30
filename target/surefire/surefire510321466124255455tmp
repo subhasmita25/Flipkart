@@ -1,0 +1,14 @@
+#surefire
+#Thu Dec 28 15:34:56 IST 2017
+selenium.screenshots.dir=test-results/28_Dec_2017_10_04_AM/img
+json.report.dir=test-results/28_Dec_2017_10_04_AM/json
+outputDir=test-results/28_Dec_2017_10_04_AM
+log4j.configuration=file\:///C\:\\Users\\Subhasmita.Rout\\QASWorkspace\\Automation\\FlipkartWebAutomation.zip_expanded\\FlipkartWebAutomation/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=C\:\\Users\\Subhasmita.Rout\\QASWorkspace\\Automation\\FlipkartWebAutomation.zip_expanded\\FlipkartWebAutomation
+localRepository=C\:\\Users\\Subhasmita.Rout\\.m2\\repository
+basedir=C\:\\Users\\Subhasmita.Rout\\QASWorkspace\\Automation\\FlipkartWebAutomation.zip_expanded\\FlipkartWebAutomation
+test.results.dir=test-results/28_Dec_2017_10_04_AM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

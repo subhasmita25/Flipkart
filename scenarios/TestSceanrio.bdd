@@ -1,0 +1,18 @@
+
+
+
+SCENARIO: FlipKartOrderVerification
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"]}
+	
+	Given user opens flipkart application 
+	And user closes the pop up box
+	When user selects 'Apple' from 'Electronics' catagory
+	And user navigates to searchproduct
+	And user selects 'iPad' from searchproduct list
+	Then user navigates to searchproduct page
+	When user selects '0' product from product list
+	And user verifies product details matching correctly 
+	When user selects addtoCart button 
+	Then product has been added to cart 
+	
+END

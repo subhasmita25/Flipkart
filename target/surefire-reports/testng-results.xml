@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart home page verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/checkTestOderFlow_1v4so04ev68di38590.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>verifySelectProduct Page verification
+Expected: a string containing "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com"
+     Actual: was "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com" <a href="../img/checkTestOderFlow_uz27neyzdazs38591.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="../img/checkTestOderFlow_fv4gbsekszqk38592.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)" <a href="../img/checkTestOderFlow_1q6argpnh9axk38593.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="../img/checkTestOderFlow_tqkcqn59d9w838594.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="../img/checkTestOderFlow_8u9hnhuof90138595.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="../img/checkTestOderFlow_2ihstvmjebjz38596.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="../img/checkTestOderFlow_bny0lgb7zyqo38597.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31637" started-at="2017-12-28T11:14:41Z" finished-at="2017-12-28T11:15:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31637" started-at="2017-12-28T11:14:41Z" finished-at="2017-12-28T11:15:13Z">
+      <class name="com.flipkartwebautomation.steps.FlipkartProductSteps">
+        <test-method status="PASS" signature="checkTestOderFlow()[pri:0, instance:com.flipkartwebautomation.steps.FlipkartProductSteps@4f9a3314]" name="checkTestOderFlow" duration-ms="31610" started-at="2017-12-28T16:44:41Z" finished-at="2017-12-28T16:45:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart home page verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/checkTestOderFlow_1v4so04ev68di38590.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>verifySelectProduct Page verification
+Expected: a string containing "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com"
+     Actual: was "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com" <a href="../img/checkTestOderFlow_uz27neyzdazs38591.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="../img/checkTestOderFlow_fv4gbsekszqk38592.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)" <a href="../img/checkTestOderFlow_1q6argpnh9axk38593.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="../img/checkTestOderFlow_tqkcqn59d9w838594.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="../img/checkTestOderFlow_8u9hnhuof90138595.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="../img/checkTestOderFlow_2ihstvmjebjz38596.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="../img/checkTestOderFlow_bny0lgb7zyqo38597.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkTestOderFlow -->
+      </class> <!-- com.flipkartwebautomation.steps.FlipkartProductSteps -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

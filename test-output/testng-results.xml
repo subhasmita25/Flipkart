@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens flipkart application</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart home page verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_16iv4c7vs0zbi50906.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user closes the pop up box</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 'Apple' from 'Electronics' catagory</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user navigates to searchproduct</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'iPad' from searchproduct list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifySelectProduct Page verification
+Expected: a string containing "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com"
+     Actual: was "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_lawqwsp2w4i050907.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to searchproduct page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_8i1vvu31i5850908.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1sjfcn7fdyg5750909.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n0umh6tp6jls50910.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects addtoCart button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1h5z33ondasw950911.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_74uzmifxr5j550912.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n4d6jvcr4s3750913.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="FlipkartWebAutomation.scenarios.TestSceanrio.bdd" duration-ms="28058" started-at="2017-12-28T10:19:08Z" finished-at="2017-12-28T10:19:36Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.TestSceanrio.bdd.FlipKartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="FlipKartOrderVerification" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.TestSceanrio.bdd.FlipKartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="FlipKartOrderVerification" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.TestSceanrio.bdd.FlipKartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="FlipKartOrderVerification" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="28058" started-at="2017-12-28T10:19:08Z" finished-at="2017-12-28T10:19:36Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="setupSuit" is-config="true" duration-ms="15" started-at="2017-12-28T15:49:08Z" finished-at="2017-12-28T15:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="setupTest" is-config="true" duration-ms="2" started-at="2017-12-28T15:49:08Z" finished-at="2017-12-28T15:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="setup" is-config="true" duration-ms="1" started-at="2017-12-28T15:49:08Z" finished-at="2017-12-28T15:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-12-28T15:49:08Z" finished-at="2017-12-28T15:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="FlipKartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="FlipKartOrderVerification" duration-ms="27980" started-at="2017-12-28T15:49:08Z" description="end to end" finished-at="2017-12-28T15:49:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens flipkart application</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart home page verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_16iv4c7vs0zbi50906.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user closes the pop up box</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 'Apple' from 'Electronics' catagory</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user navigates to searchproduct</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'iPad' from searchproduct list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifySelectProduct Page verification
+Expected: a string containing "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com"
+     Actual: was "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_lawqwsp2w4i050907.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to searchproduct page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_8i1vvu31i5850908.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1sjfcn7fdyg5750909.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n0umh6tp6jls50910.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects addtoCart button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1h5z33ondasw950911.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_74uzmifxr5j550912.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n4d6jvcr4s3750913.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipKartOrderVerification -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-28T15:49:36Z" finished-at="2017-12-28T15:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-28T15:49:36Z" finished-at="2017-12-28T15:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FlipKartOrderVerification status=SUCCESS method=scenarios.TestSceanrio.bdd.FlipKartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens flipkart application</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart home page verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_16iv4c7vs0zbi50906.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user closes the pop up box</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 'Apple' from 'Electronics' catagory</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user navigates to searchproduct</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'iPad' from searchproduct list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifySelectProduct Page verification
+Expected: a string containing "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com"
+     Actual: was "Apple Store | Buy Apple Store at Best Price in India | Flipkart.com" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_lawqwsp2w4i050907.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to searchproduct page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_8i1vvu31i5850908.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1sjfcn7fdyg5750909.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n0umh6tp6jls50910.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects addtoCart button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_1h5z33ondasw950911.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_74uzmifxr5j550912.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹24,900"
+     Actual: was "₹24,900" <a href="test-results/28_Dec_2017_03_49_PM/img/FlipKartOrderVerification_n4d6jvcr4s3750913.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="afterTest" is-config="true" duration-ms="38" started-at="2017-12-28T15:49:36Z" finished-at="2017-12-28T15:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipKartOrderVerification" name="afterSuit" is-config="true" duration-ms="2" started-at="2017-12-28T15:49:36Z" finished-at="2017-12-28T15:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- FlipkartWebAutomation.scenarios.TestSceanrio.bdd -->
+</testng-results>

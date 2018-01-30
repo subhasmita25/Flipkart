@@ -1,0 +1,3 @@
+homepage.link.menuname = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"menu home page locator\"}
+homepage.link.submenu = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"sub menu page locator\"}
+cross.button = {\"locator\":\"xpath=//button[@class='_2AkmmA _29YdH8']\",\"desc\":\"cross button locator\"}
